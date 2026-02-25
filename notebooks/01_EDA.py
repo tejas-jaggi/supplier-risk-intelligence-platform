@@ -1,10 +1,7 @@
 """
 =============================================================
 SUPPLIER RISK & COST ESCALATION PREDICTION
-Day 1-2: Exploratory Data Analysis
-=============================================================
-Run this file with: python 01_EDA.py
-Or paste sections into Jupyter notebook cell by cell.
+Exploratory Data Analysis
 =============================================================
 """
 
@@ -240,5 +237,3 @@ print(f"   • {late_rate:.1f}% of orders are late — strong imbalance signal")
 print(f"   • {top_mode} shipping has the highest late rate ({top_rate:.1f}%)")
 print(f"   • Fan Shop & Apparel dominate volume")
 print(f"   • Avg profit ratio: {avg_profit:.1f}% — tight margins = escalation risk")
-
-print("\nNext Step → Run 02_feature_engineering.py")
