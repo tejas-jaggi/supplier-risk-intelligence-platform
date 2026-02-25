@@ -1,11 +1,9 @@
 """
 =============================================================
 SUPPLIER RISK & COST ESCALATION PREDICTION
-Day 4-5: Feature Engineering
+Feature Engineering
 =============================================================
-Builds the master feature table used by all 3 models.
-Output: ../data/features_master.csv
-=============================================================
+
 """
 
 import pandas as pd
@@ -138,4 +136,3 @@ print(f"   • Late delivery rate:   {master['Late_delivery_risk'].mean()*100:.1
 print(f"   • Cancellation rate:    {master['target_cancellation'].mean()*100:.1f}%")
 print(f"   • Avg profit ratio:     {master['Order Item Profit Ratio'].mean()*100:.1f}%")
 print(f" Missing values in master: {master.isnull().sum().sum()}")
-print("\nNext Step → Run 03_model_late_delivery.py")
