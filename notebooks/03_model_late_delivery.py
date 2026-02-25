@@ -1,12 +1,9 @@
 """
 =============================================================
 SUPPLIER RISK & COST ESCALATION PREDICTION
-Day 6-8: Model 1 — Late Delivery Classifier
+Model 1 — Late Delivery Classifier
 =============================================================
-Predicts: Will this order be delivered late? (Binary: 0/1)
-Algorithm: XGBoost + class balancing
-Outputs:   Model pkl, evaluation plots, SHAP chart
-=============================================================
+
 """
 
 import pandas as pd
@@ -177,4 +174,3 @@ print(f"\n  Model saved: {MODEL_PATH}")
 
 print("\n✅ Day 6-8 Complete: Late Delivery Model trained!")
 print(f"   ROC-AUC: {auc:.4f} | F1: {f1_score(y_test, y_pred):.4f}")
-print("\nNext Step → Run 04_model_cancellation.py")
