@@ -19,3 +19,6 @@ Thumbs.db
 
 # Streamlit cache
 .streamlit/
+
+# Large raw dataset (do not upload to GitHub)
+data/DataCoSupplyChainDataset.csv
