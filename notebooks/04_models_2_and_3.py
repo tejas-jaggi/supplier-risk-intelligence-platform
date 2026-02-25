@@ -1,7 +1,7 @@
 """
 =============================================================
 SUPPLIER RISK & COST ESCALATION PREDICTION
-Day 9-10: Model 2 (Cancellation/SLA) + Model 3 (Profit Overrun)
+Model 2 (Cancellation/SLA) + Model 3 (Profit Overrun)
 =============================================================
 Model 2: Predicts order cancellation / SLA breach (Binary)
 Model 3: Predicts order profit ratio (Regression)
